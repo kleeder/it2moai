@@ -11,6 +11,7 @@ slightly modified to work with Python 3.
 - the instruments may not be changed, they are used for proper conversion
 - no volume, loop or effect support
 - please keep in mind the online tool starts lagging quickly with multiple combined notes
+- theres a [userscript](https://greasyfork.org/en/scripts/439347-thirty-dollar-rewrite?t=3tAKFxcFgwaQNXTXVB8cww&s=09) which fixes the issue. Directly implemented in [this web version](https://kleeder.de/files/moai/%F0%9F%97%BF.html).
 - Note Cuts cut all sounds, no matter where they are placed
 - Initial Tempo may be changed, but not the Initial Ticks.
 -------
