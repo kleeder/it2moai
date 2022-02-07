@@ -1,22 +1,6 @@
 #!/usr/bin/env python
 
-"""
-it2moai.py, version 0.1
-----------------------
-
-Python 3 only.
-
-Use the example.it file to do your song.
-Don't change samples/instruments.
-No effects, no volume change, only notes.
-Note Cuts cut all sounds, no matter where they are placed
-Initial Tempo may be changed, but not the Initial Ticks.
-
-Version history
----------------
-
-* 0.1: Initial creation of program.
-"""
+# it2moai.py, version 0.1
 
 from sys import stderr, version_info
 from pytrax import impulsetracker
@@ -86,3 +70,4 @@ def convert(module, filename, soundnamelist):
 module = impulsetracker.parse_file(MODULE, with_patterns=True)
 soundnamelist = get_soundlist(SOUNDLIST)
 convert(module, 'output.🗿', soundnamelist)
+print("hey i reached the end of the script, the file SHOULD be there now")
