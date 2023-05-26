@@ -1,788 +1,1339 @@
 [
   {
-    "filename": "🗿/sounds/1/a_boom.wav",
-    "name": "boom",
-    "group": "1",
-    "image": "🗿/sounds/1/boom.png"
-  },
-  {
-    "filename": "🗿/sounds/1/c_bruh.wav",
-    "name": "bruh",
-    "group": "1",
-    "image": "🗿/sounds/1/bruh.png"
-  },
-  {
-    "filename": "🗿/sounds/1/d_bong.wav",
+    "id": "bong",
     "name": "bong",
-    "group": "1",
-    "image": "🗿/sounds/1/bong.png"
+    "filename": "c_bong.wav",
+    "order": "1",
+    "tuningoffset": -4
   },
   {
-    "filename": "🗿/sounds/1/e_💀.wav",
-    "name": "💀",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f480.png"
-  },
-  {
-    "filename": "🗿/sounds/1/f_👏.wav",
-    "name": "👏",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f44f.png"
-  },
-  {
-    "filename": "🗿/sounds/1/g_🐶.wav",
-    "name": "🐶",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f436.png"
-  },
-  {
-    "filename": "🗿/sounds/1/h_👽.wav",
+    "id":"cave",
     "name": "👽",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f47d.png"
+    "filename": "c_cave.wav",
+    "order": "2",
+    "tuningoffset": 4
   },
   {
-    "filename": "🗿/sounds/1/i_🔔.wav",
-    "name": "🔔",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f514.png"
-  },
-  {
-    "filename": "🗿/sounds/1/j_💢.wav",
-    "name": "💢",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f4a2.png"
-  },
-  {
-    "filename": "🗿/sounds/1/k_💨.wav",
-    "name": "💨",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f4a8.png"
-  },
-  {
-    "filename": "🗿/sounds/1/l_🚫.wav",
+    "id": "error",    
     "name": "🚫",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f6ab.png"
+    "filename": "c_error.wav",
+    "order": "3",
+    "tuningoffset": 0
   },
   {
-    "filename": "🗿/sounds/1/m_📲.wav",
-    "name": "📲",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f4f2.png"
+    "id": "familyguy",
+    "name": "familyguy",
+    "filename": "c_familyguy.wav",
+    "order": "4",
+    "tuningoffset": 0
   },
   {
-    "filename": "🗿/sounds/1/n_🌄.wav",
-    "name": "🌄",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f304.png"
-  },
-  {
-    "filename": "🗿/sounds/1/o_whatsapp.wav",
-    "name": "whatsapp",
-    "group": "1",
-    "image": "🗿/sounds/1/whatsapp.png"
-  },
-  {
-    "filename": "🗿/sounds/1/p_🏏.wav",
-    "name": "🏏",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f3cf.png"
-  },
-  {
-    "filename": "🗿/sounds/1/q_🚨.wav",
-    "name": "🚨",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f6a8.png"
-  },
-  {
-    "filename": "🗿/sounds/1/qa_buzzer.wav",
-    "name": "buzzer",
-    "group": "1",
-    "image": "🗿/sounds/1/buzzer.png"
-  },
-  {
-    "filename": "🗿/sounds/1/r_❗.wav",
-    "name": "❗",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/2757.png"
-  },
-  {
-    "filename": "🗿/sounds/1/s_🦀.wav",
-    "name": "🦀",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f980.png"
-  },
-  {
-    "filename": "🗿/sounds/1/t_e.wav",
-    "name": "e",
-    "group": "1",
-    "image": "🗿/sounds/1/e.png"
-  },
-  {
-    "filename": "🗿/sounds/1/u_🍕.wav",
-    "name": "🍕",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f355.png"
-  },
-  {
-    "filename": "🗿/sounds/1/v_🦢.wav",
-    "name": "🦢",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f9a2.png"
-  },
-  {
-    "filename": "🗿/sounds/1/y_gun.wav",
-    "name": "gun",
-    "group": "1",
-    "image": "🗿/sounds/1/gun.png"
-  },
-  {
-    "filename": "🗿/sounds/1/z_gnome.wav",
-    "name": "gnome",
-    "group": "1",
-    "image": "🗿/sounds/1/gnome.png"
-  },
-  {
-    "filename": "🗿/sounds/1/za_💿.wav",
-    "name": "💿",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f4bf.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zb_🎉.wav",
-    "name": "🎉",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f389.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zc_🎻.wav",
-    "name": "🎻",
-    "group": "1",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f3bb.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zca_pan.wav",
-    "name": "pan",
-    "group": "1",
-    "image": "🗿/sounds/1/pan.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zd_slip.wav",
-    "name": "slip",
-    "group": "1",
-    "image": "🗿/sounds/1/slip.png"
-  },
-  {
-    "filename": "🗿/sounds/1/ze_whipcrack.wav",
-    "name": "whipcrack",
-    "group": "1",
-    "image": "🗿/sounds/1/whipcrack.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zeb_21.wav",
-    "name": "21",
-    "group": "1",
-    "image": "🗿/sounds/1/21.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zg_op.wav",
-    "name": "op",
-    "group": "1",
-    "image": "🗿/sounds/1/op.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zh_SLAM.wav",
-    "name": "SLAM",
-    "group": "1",
-    "image": "🗿/sounds/1/SLAM.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zzz_explosion.wav",
-    "name": "explosion",
-    "group": "1",
-    "image": "🗿/sounds/1/explosion.png"
-  },
-  {
-    "filename": "🗿/sounds/1/zzzz_americano.wav",
-    "name": "americano",
-    "group": "1",
-    "image": "🗿/sounds/1/americano.png"
-  },
-  {
-    "filename": "🗿/sounds/2/a_smw_coin.wav",
-    "name": "smw_coin",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_coin.png"
-  },
-  {
-    "filename": "🗿/sounds/2/b_smw_1up.wav",
-    "name": "smw_1up",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_1up.png"
-  },
-  {
-    "filename": "🗿/sounds/2/c_smw_spinjump.wav",
-    "name": "smw_spinjump",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_spinjump.png"
-  },
-  {
-    "filename": "🗿/sounds/2/d_smw_stomp2.wav",
-    "name": "smw_stomp2",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_stomp2.png"
-  },
-  {
-    "filename": "🗿/sounds/2/e_smw_kick.wav",
-    "name": "smw_kick",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_kick.png"
-  },
-  {
-    "filename": "🗿/sounds/2/f_smw_stomp.wav",
-    "name": "smw_stomp",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_stomp.png"
-  },
-  {
-    "filename": "🗿/sounds/2/g_smw_yoshi.wav",
-    "name": "smw_yoshi",
-    "group": "2",
-    "image": "🗿/sounds/2/smw_yoshi.png"
-  },
-  {
-    "filename": "🗿/sounds/2/h_mariopaint_flower.wav",
-    "name": "mariopaint_flower",
-    "group": "2",
-    "image": "🗿/sounds/2/mariopaint_flower.png"
-  },
-  {
-    "filename": "🗿/sounds/2/i_mariopaint_car.wav",
-    "name": "mariopaint_car",
-    "group": "2",
-    "image": "🗿/sounds/2/mariopaint_car.png"
-  },
-  {
-    "filename": "🗿/sounds/2/j_mariopaint_dog.wav",
-    "name": "mariopaint_dog",
-    "group": "2",
-    "image": "🗿/sounds/2/mariopaint_dog.png"
-  },
-  {
-    "filename": "🗿/sounds/2/k_mariopaint_cat.wav",
-    "name": "mariopaint_cat",
-    "group": "2",
-    "image": "🗿/sounds/2/mariopaint_cat.png"
-  },
-  {
-    "filename": "🗿/sounds/2/l_mariopaint_baby.wav",
-    "name": "mariopaint_baby",
-    "group": "2",
-    "image": "🗿/sounds/2/mariopaint_baby.png"
-  },
-  {
-    "filename": "🗿/sounds/3/a_shaker.wav",
-    "name": "shaker",
-    "group": "3",
-    "image": "🗿/sounds/3/shaker.png"
-  },
-  {
-    "filename": "🗿/sounds/3/b_🥁.wav",
-    "name": "🥁",
-    "group": "3",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f941.png"
-  },
-  {
-    "filename": "🗿/sounds/3/c_hammer.wav",
-    "name": "hammer",
-    "group": "3",
-    "image": "🗿/sounds/3/hammer.png"
-  },
-  {
-    "filename": "🗿/sounds/3/ca_🪘.wav",
-    "name": "🪘",
-    "group": "3",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1fa98.png"
-  },
-  {
-    "filename": "🗿/sounds/3/d_sidestick.wav",
-    "name": "sidestick",
-    "group": "3",
-    "image": "🗿/sounds/3/sidestick.png"
-  },
-  {
-    "filename": "🗿/sounds/3/e_ride2.wav",
-    "name": "ride2",
-    "group": "3",
-    "image": "🗿/sounds/3/ride2.png"
-  },
-  {
-    "filename": "🗿/sounds/3/f_buttonpop.wav",
-    "name": "buttonpop",
-    "group": "3",
-    "image": "🗿/sounds/3/buttonpop.png"
-  },
-  {
-    "filename": "🗿/sounds/3/fa_skipshot.wav",
-    "name": "skipshot",
-    "group": "3",
-    "image": "🗿/sounds/3/skipshot.png"
-  },
-  {
-    "filename": "🗿/sounds/3/g_otto_on.wav",
-    "name": "otto_on",
-    "group": "3",
-    "image": "🗿/sounds/3/otto_on.png"
-  },
-  {
-    "filename": "🗿/sounds/3/h_otto_off.wav",
-    "name": "otto_off",
-    "group": "3",
-    "image": "🗿/sounds/3/otto_off.png"
-  },
-  {
-    "filename": "🗿/sounds/3/i_otto_happy.wav",
-    "name": "otto_happy",
-    "group": "3",
-    "image": "🗿/sounds/3/otto_happy.png"
-  },
-  {
-    "filename": "🗿/sounds/3/j_otto_stress.wav",
-    "name": "otto_stress",
-    "group": "3",
-    "image": "🗿/sounds/3/otto_stress.png"
-  },
-  {
-    "filename": "🗿/sounds/3/m_tab_sounds.wav",
-    "name": "tab_sounds",
-    "group": "3",
-    "image": "🗿/sounds/3/tab_sounds.png"
-  },
-  {
-    "filename": "🗿/sounds/3/n_tab_rows.wav",
-    "name": "tab_rows",
-    "group": "3",
-    "image": "🗿/sounds/3/tab_rows.png"
-  },
-  {
-    "filename": "🗿/sounds/3/o_tab_actions.wav",
-    "name": "tab_actions",
-    "group": "3",
-    "image": "🗿/sounds/3/tab_actions.png"
-  },
-  {
-    "filename": "🗿/sounds/3/p_tab_rooms.wav",
-    "name": "tab_rooms",
-    "group": "3",
-    "image": "🗿/sounds/3/tab_rooms.png"
-  },
-  {
-    "filename": "🗿/sounds/3/pe_preecho.wav",
-    "name": "preecho",
-    "group": "3",
-    "image": "🗿/sounds/3/preecho.png"
-  },
-  {
-    "filename": "🗿/sounds/3/q_tonk.wav",
-    "name": "tonk",
-    "group": "3",
-    "image": "🗿/sounds/3/tonk.png"
-  },
-  {
-    "filename": "🗿/sounds/3/qb_rdmistake.wav",
-    "name": "rdmistake",
-    "group": "3",
-    "image": "🗿/sounds/3/rdmistake.png"
-  },
-  {
-    "filename": "🗿/sounds/3/qc_samurai.wav",
-    "name": "samurai",
-    "group": "3",
-    "image": "🗿/sounds/3/samurai.png"
-  },
-  {
-    "filename": "🗿/sounds/3/r_adofaikick.wav",
-    "name": "adofaikick",
-    "group": "3",
-    "image": "🗿/sounds/3/adofaikick.png"
-  },
-  {
-    "filename": "🗿/sounds/3/s_midspin.wav",
-    "name": "midspin",
-    "group": "3",
-    "image": "🗿/sounds/3/midspin.png"
-  },
-  {
-    "filename": "🗿/sounds/3/sa_adofaicymbal.wav",
-    "name": "adofaicymbal",
-    "group": "3",
-    "image": "🗿/sounds/3/adofaicymbal.png"
-  },
-  {
-    "filename": "🗿/sounds/3/t_fnf_death.wav",
-    "name": "fnf_death",
-    "group": "3",
-    "image": "🗿/sounds/3/fnf_death.png"
-  },
-  {
-    "filename": "🗿/sounds/3/ta_fnf_left.wav",
-    "name": "fnf_left",
-    "group": "3",
-    "image": "🗿/sounds/3/fnf_left.png"
-  },
-  {
-    "filename": "🗿/sounds/3/tb_fnf_down.wav",
-    "name": "fnf_down",
-    "group": "3",
-    "image": "🗿/sounds/3/fnf_down.png"
-  },
-  {
-    "filename": "🗿/sounds/3/tc_fnf_up.wav",
-    "name": "fnf_up",
-    "group": "3",
-    "image": "🗿/sounds/3/fnf_up.png"
-  },
-  {
-    "filename": "🗿/sounds/3/td_fnf_right.wav",
-    "name": "fnf_right",
-    "group": "3",
-    "image": "🗿/sounds/3/fnf_right.png"
-  },
-  {
-    "filename": "🗿/sounds/3/u_cowbell.wav",
-    "name": "cowbell",
-    "group": "3",
-    "image": "🗿/sounds/3/cowbell.png"
-  },
-  {
-    "filename": "🗿/sounds/3/u_karateman_throw.wav",
-    "name": "karateman_throw",
-    "group": "3",
-    "image": "🗿/sounds/3/karateman_throw.png"
-  },
-  {
-    "filename": "🗿/sounds/3/ua_karateman_offbeat.wav",
-    "name": "karateman_offbeat",
-    "group": "3",
-    "image": "🗿/sounds/3/karateman_offbeat.png"
-  },
-  {
-    "filename": "🗿/sounds/3/v_karateman_hit.wav",
-    "name": "karateman_hit",
-    "group": "3",
-    "image": "🗿/sounds/3/karateman_hit.png"
-  },
-  {
-    "filename": "🗿/sounds/3/va_karateman_bulb.wav",
-    "name": "karateman_bulb",
-    "group": "3",
-    "image": "🗿/sounds/3/karateman_bulb.png"
-  },
-  {
-    "filename": "🗿/sounds/3/w_ook.wav",
-    "name": "ook",
-    "group": "3",
-    "image": "🗿/sounds/3/ook.png"
-  },
-  {
-    "filename": "🗿/sounds/3/wa_builttoscale.wav",
-    "name": "builttoscale",
-    "group": "3",
-    "image": "🗿/sounds/3/builttoscale.png"
-  },
-  {
-    "filename": "🗿/sounds/3/x_🌟.wav",
-    "name": "🌟",
-    "group": "3",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f31f.png"
-  },
-  {
-    "filename": "🗿/sounds/4/b_megalovania.wav",
-    "name": "megalovania",
-    "group": "4",
-    "image": "🗿/sounds/4/megalovania.png"
-  },
-  {
-    "filename": "🗿/sounds/4/ba_🦴.wav",
-    "name": "🦴",
-    "group": "4",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f9b4.png"
-  },
-  {
-    "filename": "🗿/sounds/4/c_undertale_encounter.wav",
-    "name": "undertale_encounter",
-    "group": "4",
-    "image": "🗿/sounds/4/undertale_encounter.png"
-  },
-  {
-    "filename": "🗿/sounds/4/d_undertale_hit.wav",
-    "name": "undertale_hit",
-    "group": "4",
-    "image": "🗿/sounds/4/undertale_hit.png"
-  },
-  {
-    "filename": "🗿/sounds/4/e_undertale_crack.wav",
-    "name": "undertale_crack",
-    "group": "4",
-    "image": "🗿/sounds/4/undertale_crack.png"
-  },
-  {
-    "filename": "🗿/sounds/4/ea_gaster.wav",
-    "name": "gaster",
-    "group": "4",
-    "image": "🗿/sounds/4/gaster.png"
-  },
-  {
-    "filename": "🗿/sounds/4/eb_yahoo.wav",
-    "name": "yahoo",
-    "group": "4",
-    "image": "🗿/sounds/4/yahoo.png"
-  },
-  {
-    "filename": "🗿/sounds/4/f_bup.wav",
-    "name": "bup",
-    "group": "4",
-    "image": "🗿/sounds/4/bup.png"
-  },
-  {
-    "filename": "🗿/sounds/4/ff_thwomp.wav",
-    "name": "thwomp",
-    "group": "4",
-    "image": "🗿/sounds/4/thwomp.png"
-  },
-  {
-    "filename": "🗿/sounds/4/g_amongus.wav",
-    "name": "amongus",
-    "group": "4",
-    "image": "🗿/sounds/4/amongus.png"
-  },
-  {
-    "filename": "🗿/sounds/4/h_amongdrip.wav",
-    "name": "amongdrip",
-    "group": "4",
-    "image": "🗿/sounds/4/amongdrip.png"
-  },
-  {
-    "filename": "🗿/sounds/4/i_amogus.wav",
-    "name": "amogus",
-    "group": "4",
-    "image": "🗿/sounds/4/amogus.png"
-  },
-  {
-    "filename": "🗿/sounds/4/j_gdcrash.wav",
-    "name": "gdcrash",
-    "group": "4",
-    "image": "🗿/sounds/4/gdcrash.png"
-  },
-  {
-    "filename": "🗿/sounds/4/k_gdcrash_orbs.wav",
-    "name": "gdcrash_orbs",
-    "group": "4",
-    "image": "🗿/sounds/4/gdcrash_orbs.png"
-  },
-  {
-    "filename": "🗿/sounds/4/l_gd_coin.wav",
+    "id": "gd_coin",
     "name": "gd_coin",
-    "group": "4",
-    "image": "🗿/sounds/4/gd_coin.png"
+    "filename": "c_gd_coin.wav",    
+    "order": "5",
+    "tuningoffset": 1
   },
-  {
-    "filename": "🗿/sounds/4/m_gd_orbs.wav",
-    "name": "gd_orbs",
-    "group": "4",
-    "image": "🗿/sounds/4/gd_orbs.png"
-  },
-  {
-    "filename": "🗿/sounds/4/n_gd_diamonds.wav",
+  { 
+    "id": "gd_diamonds",
     "name": "gd_diamonds",
-    "group": "4",
-    "image": "🗿/sounds/4/gd_diamonds.png"
+    "filename":"c_gd_diamonds.wav",
+    "order": "6",
+    "tuningoffset": 6
   },
-  {
-    "filename": "🗿/sounds/4/o_bwomp.wav",
-    "name": "bwomp",
-    "group": "4",
-    "image": "🗿/sounds/4/bwomp.png"
+  { 
+    "id": "gd_orbs",
+    "name": "gd_orbs",
+    "filename":"c_gd_orbs.wav",
+    "order": "7",
+    "tuningoffset": 1
   },
-  {
-    "filename": "🗿/sounds/4/q_isaac_hurt.wav",
-    "name": "isaac_hurt",
-    "group": "4",
-    "image": "🗿/sounds/4/isaac_hurt.png"
+  { 
+    "id": "otto_off",
+    "name": "otto_off",
+    "filename":"c_otto_off.wav",
+    "order": "8",
+    "tuningoffset": -3
   },
-  {
-    "filename": "🗿/sounds/4/r_isaac_dead.wav",
-    "name": "isaac_dead",
-    "group": "4",
-    "image": "🗿/sounds/4/isaac_dead.png"
+  { 
+    "id": "samurai",
+    "name": "samurai",
+    "filename":"c_samurai.wav",
+    "order": "9",
+    "tuningoffset": 3
   },
-  {
-    "filename": "🗿/sounds/4/ra_isaac_mantle.wav",
-    "name": "isaac_mantle",
-    "group": "4",
-    "image": "🗿/sounds/4/isaac_mantle.png"
+  { 
+    "id": "skillstar",
+    "name": "🌟",
+    "filename":"c_skillstar.wav",
+    "order": "10",
+    "tuningoffset": -10
   },
-  {
-    "filename": "🗿/sounds/4/sa_terraria_star.wav",
-    "name": "terraria_star",
-    "group": "4",
-    "image": "🗿/sounds/4/terraria_star.png"
+  { 
+    "id": "smw_kick",
+    "name": "smw_kick",
+    "filename":"c_smw_kick.wav",
+    "order": "11",
+    "tuningoffset": -5
   },
-  {
-    "filename": "🗿/sounds/4/sb_terraria_pot.wav",
-    "name": "terraria_pot",
-    "group": "4",
-    "image": "🗿/sounds/4/terraria_pot.png"
+  { 
+    "id": "tada",
+    "name": "🎉",
+    "filename":"c_tada.wav",
+    "order": "12",
+    "tuningoffset": 0
   },
-  {
-    "filename": "🗿/sounds/4/sc_terraria_reforge.wav",
-    "name": "terraria_reforge",
-    "group": "4",
-    "image": "🗿/sounds/4/terraria_reforge.png"
+  { 
+    "id": "terraria_axe",
+    "name": "terraria_axe",
+    "filename":"c_terraria_axe.wav",
+    "order": "13",
+    "tuningoffset": 0
   },
-  {
-    "filename": "🗿/sounds/4/ua_BABA.wav",
-    "name": "BABA",
-    "group": "4",
-    "image": "🗿/sounds/4/BABA.png"
+  { 
+    "id": "terraria_guitar",
+    "name": "terraria_guitar",
+    "filename":"terraria_guitar.wav",
+    "order": "14",
+    "tuningoffset": 0
   },
-  {
-    "filename": "🗿/sounds/4/ub_YOU.wav",
-    "name": "YOU",
-    "group": "4",
-    "image": "🗿/sounds/4/YOU.png"
-  },
-  {
-    "filename": "🗿/sounds/4/uc_DEFEAT.wav",
-    "name": "DEFEAT",
-    "group": "4",
-    "image": "🗿/sounds/4/DEFEAT.png"
-  },
-  {
-    "filename": "🗿/sounds/4/va_oof.wav",
-    "name": "oof",
-    "group": "4",
-    "image": "🗿/sounds/4/oof.png"
-  },
-  {
-    "filename": "🗿/sounds/4/vb_subaluwa.wav",
-    "name": "subaluwa",
-    "group": "4",
-    "image": "🗿/sounds/4/subaluwa.png"
-  },
-  {
-    "filename": "🗿/sounds/4/vc_necoarc.wav",
-    "name": "necoarc",
-    "group": "4",
-    "image": "🗿/sounds/4/necoarc.png"
-  },
-  {
-    "filename": "🗿/sounds/4/vd_yoda.wav",
-    "name": "yoda",
-    "group": "4",
-    "image": "🗿/sounds/4/yoda.png"
-  },
-  {
-    "filename": "🗿/sounds/4/ze_hehehehaw.wav",
-    "name": "hehehehaw",
-    "group": "4",
-    "image": "🗿/sounds/4/hehehehaw.png"
-  },
-  {
-    "filename": "🗿/sounds/4/zf_ultrainstinct.wav",
+  { 
+    "id": "ultrainstinct",
     "name": "ultrainstinct",
-    "group": "4",
-    "image": "🗿/sounds/4/ultrainstinct.png"
+    "filename":"c_ultrainstinct.wav",
+    "order": "15",
+    "tuningoffset": 3
   },
-  {
-    "filename": "🗿/sounds/4/zg_granddad.wav",
-    "name": "granddad",
-    "group": "4",
-    "image": "🗿/sounds/4/granddad.png"
+  { 
+    "id": "wowowow",
+    "name": "🚬",
+    "filename":"c_wowowow.wav",
+    "order": "16",
+    "tuningoffset": 3
   },
-  {
-    "filename": "🗿/sounds/4/zy_hoenn.wav",
+  { 
+    "id": "YOU",
+    "name": "YOU",
+    "filename":"c_YOU.wav",
+    "order": "17",
+    "tuningoffset": -1
+  },
+  { 
+    "id": "aah",
+    "name": "🅰",
+    "filename":"n_aah.wav",
+    "order": "18",
+    "tuningoffset": 0
+  },
+  { 
+    "id": "airhorn",
+    "name": "airhorn",
+    "filename":"n_airhorn.wav",
+    "order": "19",
+    "tuningoffset": -3
+  },
+  { 
+    "id": "amogus_emergency",
+    "name": "amogus_emergency",
+    "filename":"n_amogus_emergency.wav",
+    "order": "20",
+    "tuningoffset": 2
+  },
+  { 
+    "id": "amongdrip",
+    "name": "amongdrip",
+    "filename":"n_amongdrip.wav",
+    "order": "21",
+    "tuningoffset": 0
+  },
+  { 
+    "id": "augh",
+    "name": "🐡",
+    "filename":"n_augh.wav",
+    "order": "22",
+    "tuningoffset": 4
+  },
+  { 
+    "id": "bell",
+    "name": "🔔",
+    "filename":"n_bell.wav",
+    "order": "23",
+    "tuningoffset": -4
+  },
+  { 
+    "id": "bleep",
+    "name": "🤬",
+    "filename":"n_bleep.wav",
+    "order": "24",
+    "tuningoffset": 1
+  },
+  { 
+    "id": "bonk",
+    "name": "🏏",
+    "filename":"n_bonk.wav",
+    "order": "25",
+    "tuningoffset": -4
+  },
+  { 
+    "id": "builttoscale",
+    "name": "builttoscale",
+    "filename":"n_builttoscale.wav",
+    "order": "26",
+    "tuningoffset": 0
+  },
+  { 
+    "id": "bup",
+    "name": "bup",
+    "filename":"n_bup.wav",
+    "order": "27",
+    "tuningoffset": 4
+  },
+  { 
+    "id": "buzzer",
+    "name": "buzzer",
+    "filename":"n_buzzer.wav",
+    "order": "28",
+    "tuningoffset": 2
+  },
+  { 
+    "id": "bwomp",
+    "name": "bwomp",
+    "filename":"n_bwomp.wav",
+    "order": "29",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "choruskid",
+    "name": "choruskid",
+    "filename":"n_choruskid.wav",
+    "order": "30",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "dimrainsynth",
+    "name": "🎹",
+    "filename":"n_dimrainsynth.wav",
+    "order": "31",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "fnf_down",
+    "name": "fnf_down",
+    "filename":"n_fnf_down.wav",
+    "order": "32",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "fnf_left",
+    "name": "fnf_left",
+    "filename":"n_fnf_left.wav",
+    "order": "33",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "fnf_right",
+    "name": "fnf_right",
+    "filename":"n_fnf_right.wav",
+    "order": "34",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "fnf_up",
+    "name": "fnf_up",
+    "filename":"n_fnf_up.wav",
+    "order": "35",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "gd_quit",
+    "name": "gd_quit",
+    "filename":"n_gd_quit.wav",
+    "order": "36",
+    "tuningoffset": 3
+  },
+  { 
+    "id": "hoenn",
     "name": "hoenn",
-    "group": "4",
-    "image": "🗿/sounds/4/hoenn.png"
+    "filename":"n_hoenn.wav",
+    "order": "37",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/4/zz_🎺.wav",
-    "name": "🎺",
-    "group": "4",
-    "image": "https://twemoji.maxcdn.com/v/13.1.0/72x72/1f3ba.png"
+  { 
+    "id": "honk",
+    "name": "🦢",
+    "filename":"n_honk.wav",
+    "order": "38",
+    "tuningoffset": -4
   },
-  {
-    "filename": "🗿/sounds/5/a_noteblock_harp.wav",
-    "name": "noteblock_harp",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_harp.png"
+  { 
+    "id": "mariopaint_car",
+    "name": "mariopaint_car",
+    "filename":"n_mariopaint_car.wav",
+    "order": "39",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/b_noteblock_bass.wav",
-    "name": "noteblock_bass",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_bass.png"
+  { 
+    "id": "mariopaint_cat",
+    "name": "mariopaint_cat",
+    "filename":"n_mariopaint_cat.wav",
+    "order": "40",
+    "tuningoffset": -5
   },
-  {
-    "filename": "🗿/sounds/5/c_noteblock_snare.wav",
-    "name": "noteblock_snare",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_snare.png"
+  { 
+    "id": "mariopaint_dog",
+    "name": "mariopaint_dog",
+    "filename":"n_mariopaint_dog.wav",
+    "order": "41",
+    "tuningoffset": -5
   },
-  {
-    "filename": "🗿/sounds/5/d_noteblock_click.wav",
-    "name": "noteblock_click",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_click.png"
+  { 
+    "id": "mariopaint_flower",
+    "name": "mariopaint_flower",
+    "filename":"n_mariopaint_flower.wav",
+    "order": "42",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/e_noteblock_bell.wav",
-    "name": "noteblock_bell",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_bell.png"
+  { 
+    "id": "mariopaint_gameboy",
+    "name": "mariopaint_gameboy",
+    "filename":"n_mariopaint_gameboy.wav",
+    "order": "43",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/f_noteblock_chime.wav",
-    "name": "noteblock_chime",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_chime.png"
+  { 
+    "id": "mariopaint_luigi",
+    "name": "mariopaint_luigi",
+    "filename":"n_mariopaint_luigi.wav",
+    "order": "44",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/g_noteblock_banjo.wav",
-    "name": "noteblock_banjo",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_banjo.png"
+  { 
+    "id": "mariopaint_mario",
+    "name": "mariopaint_mario",
+    "filename":"n_mariopaint_mario.wav",
+    "order": "45",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/h_noteblock_pling.wav",
-    "name": "noteblock_pling",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_pling.png"
+  { 
+    "id": "mariopaint_plane",
+    "name": "mariopaint_plane",
+    "filename":"n_mariopaint_plane.wav",
+    "order": "46",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/i_noteblock_xylophone.wav",
-    "name": "noteblock_xylophone",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_xylophone.png"
+  { 
+    "id": "mariopaint_star",
+    "name": "mariopaint_star",
+    "filename":"n_mariopaint_star.wav",
+    "order": "47",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/j_noteblock_bit.wav",
-    "name": "noteblock_bit",
-    "group": "5",
-    "image": "🗿/sounds/5/noteblock_bit.png"
+  { 
+    "id": "mariopaint_swan",
+    "name": "mariopaint_swan",
+    "filename":"n_mariopaint_swan.wav",
+    "order": "48",
+    "tuningoffset": -6
   },
-  {
-    "filename": "🗿/sounds/5/k_minecraft_explosion.wav",
-    "name": "minecraft_explosion",
-    "group": "5",
-    "image": "🗿/sounds/5/minecraft_explosion.png"
+  { 
+    "id": "megalovania_note",
+    "name": "🦴",
+    "filename":"n_megalovania_note.wav",
+    "order": "49",
+    "tuningoffset": -2
   },
-  {
-    "filename": "🗿/sounds/5/l_minecraft_bell.wav",
+  { 
+    "id": "minecraft_bell",
     "name": "minecraft_bell",
-    "group": "5",
-    "image": "🗿/sounds/5/minecraft_bell.png"
+    "filename":"n_minecraft_bell.wav",
+    "order": "50",
+    "tuningoffset": 6
+  },
+  { 
+    "id": "morshu",
+    "name": "morshu",
+    "filename":"n_morshu.wav",
+    "order": "51",
+    "tuningoffset": 4
+  },
+  { 
+    "id": "noteblock_banjo",
+    "name": "noteblock_banjo",
+    "filename":"n_noteblock_banjo.wav",
+    "order": "52",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_bass",
+    "name": "noteblock_bass",
+    "filename":"n_noteblock_bass.wav",
+    "order": "53",
+    "tuningoffset": 6
+  },
+  { 
+    "id": "noteblock_bell",
+    "name": "noteblock_bell",
+    "filename":"n_noteblock_bell.wav",
+    "order": "54",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_bit",
+    "name": "noteblock_bit",
+    "filename":"n_noteblock_bit.wav",
+    "order": "55",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_chime",
+    "name": "noteblock_chime",
+    "filename":"n_noteblock_chime.wav",
+    "order": "56",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_flute",
+    "name": "noteblock_flute",
+    "filename":"n_noteblock_flute.wav",
+    "order": "57",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_guitar",
+    "name": "noteblock_guitar",
+    "filename":"n_noteblock_guitar.wav",
+    "order": "58",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_harp",
+    "name": "noteblock_harp",
+    "filename":"n_noteblock_harp.wav",
+    "order": "59",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_pling",
+    "name": "noteblock_pling",
+    "filename":"n_noteblock_pling.wav",
+    "order": "60",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "noteblock_xylophone",
+    "name": "noteblock_xylophone",
+    "filename":"n_noteblock_xylophone.wav",
+    "order": "61",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "obama",
+    "name": "obama",
+    "filename":"n_obama.wav",
+    "order": "62",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "ook",
+    "name": "ook",
+    "filename":"n_ook.wav",
+    "order": "63",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "op",
+    "name": "op",
+    "filename":"n_op.wav",
+    "order": "64",
+    "tuningoffset": 3
+  },
+  { 
+    "id": "quack",
+    "name": "🦆",
+    "filename":"n_quack.wav",
+    "order": "65",
+    "tuningoffset": 7
+  },
+  { 
+    "id": "robtopphone",
+    "name": "robtopphone",
+    "filename":"n_robtopphone.wav",
+    "order": "66",
+    "tuningoffset": -6
+  },
+  { 
+    "id": "sans_voice",
+    "name": "sans_voice",
+    "filename":"n_sans_voice.wav",
+    "order": "67",
+    "tuningoffset": -4
+  },
+  { 
+    "id": "slapbass",
+    "name": "🎸",
+    "filename":"n_slapbass.wav",
+    "order": "68",
+    "tuningoffset": 6
+  },
+  { 
+    "id": "smw_coin",
+    "name": "smw_coin",
+    "filename":"n_smw_coin.wav",
+    "order": "69",
+    "tuningoffset": -4
+  },
+  { 
+    "id": "stopposting",
+    "name": "stopposting",
+    "filename":"n_stopposting.wav",
+    "order": "70",
+    "tuningoffset": 0
+  },
+  { 
+    "id": "tab_sounds",
+    "name": "tab_sounds",
+    "filename":"n_tab_sounds.wav",
+    "order": "71",
+    "tuningoffset": 0
+  },
+  { 
+    "id": "tonk",
+    "name": "tonk",
+    "filename":"n_tonk.wav",
+    "order": "72",
+    "tuningoffset": -2
+  },
+  { 
+    "id": "waterphone",
+    "name": "🎻",
+    "filename":"n_waterphone.wav",
+    "order": "73",
+    "tuningoffset": -7
+  },
+  { 
+    "id": "zunpet",
+    "name": "🎺",
+    "filename":"n_zunpet.wav",
+    "order": "74",
+    "tuningoffset": 6
+  },
+  { 
+    "id": "adofai_fire",
+    "name": "adofai_fire",
+    "filename":"perc_adofai_fire.wav",
+    "order": "75",
+    "tuningoffset": 0
+  },  
+  { 
+    "id": "adofai_ice",
+    "name": "adofai_ice",
+    "filename":"perc_adofai_ice.wav",
+    "order": "76",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "adofaicymbal",
+    "name": "adofaicymbal",
+    "filename":"perc_adofaicymbal.wav",
+    "order": "77",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "adofaikick",
+    "name": "adofaikick",
+    "filename":"perc_adofaikick.wav",
+    "order": "78",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "amogus_kill",
+    "name": "amogus_kill",
+    "filename":"perc_amogus_kill.wav",
+    "order": "79",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "boom",
+    "name": "boom",
+    "filename":"perc_boom.wav",
+    "order": "80",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "buttonpop",
+    "name": "buttonpop",
+    "filename":"perc_buttonpop.wav",
+    "order": "81",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "celeste_dash",
+    "name": "celeste_dash",
+    "filename":"perc_celeste_dash.wav",
+    "order": "82",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "celeste_death",
+    "name": "celeste_death",
+    "filename":"perc_celeste_death.wav",
+    "order": "83",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "celeste_diamond",
+    "name": "celeste_diamond",
+    "filename":"perc_celeste_diamond.wav",
+    "order": "84",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "celeste_spring",
+    "name": "celeste_spring",
+    "filename":"perc_celeste_spring.wav",
+    "order": "85",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "clap",
+    "name": "👏",
+    "filename":"perc_clap.wav",
+    "order": "86",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "cowbell",
+    "name": "cowbell",
+    "filename":"perc_cowbell.wav",
+    "order": "87",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "DEFEAT",
+    "name": "DEFEAT",
+    "filename":"perc_DEFEAT.wav",
+    "order": "88",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "dodgeball",
+    "name": "dodgeball",
+    "filename":"perc_dodgeball.wav",
+    "order": "89",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "hammer",
+    "name": "hammer",
+    "filename":"perc_hammer.wav",
+    "order": "90",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "hitmarker",
+    "name": "hitmarker",
+    "filename":"perc_hitmarker.wav",
+    "order": "91",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "isaac_mantle",
+    "name": "isaac_mantle",
+    "filename":"perc_isaac_mantle.wav",
+    "order": "92",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "karateman_bulb",
+    "name": "karateman_bulb",
+    "filename":"perc_karateman_bulb.wav",
+    "order": "93",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "karateman_hit",
+    "name": "karateman_hit",
+    "filename":"perc_karateman_hit.wav",
+    "order": "94",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "karateman_offbeat",
+    "name": "karateman_offbeat",
+    "filename":"perc_karateman_offbeat.wav",
+    "order": "95",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "karateman_throw",
+    "name": "karateman_throw",
+    "filename":"perc_karateman_throw.wav",
+    "order": "96",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "kick",
+    "name": "🥁",
+    "filename":"perc_kick.wav",
+    "order": "97",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "lancersplat",
+    "name": "lancersplat",
+    "filename":"perc_lancersplat.wav",
+    "order": "98",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "midspin",
+    "name": "midspin",
+    "filename":"perc_midspin.wav",
+    "order": "99",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "minecraft_anvil",
+    "name": "minecraft_anvil",
+    "filename":"perc_minecraft_anvil.wav",
+    "order": "100",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "noice",
+    "name": "👌",
+    "filename":"perc_noice.wav",
+    "order": "101",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "noteblock_click",
+    "name": "noteblock_click",
+    "filename":"perc_noteblock_click.wav",
+    "order": "102",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "noteblock_snare",
+    "name": "noteblock_snare",
+    "filename":"perc_noteblock_snare.wav",
+    "order": "103",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "pan",
+    "name": "pan",
+    "filename":"perc_pan.wav",
+    "order": "104",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "preecho",
+    "name": "preecho",
+    "filename":"perc_preecho.wav",
+    "order": "105",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "rdclap",
+    "name": "rdclap",
+    "filename":"perc_rdclap.wav",
+    "order": "106",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "ride2",
+    "name": "ride2",
+    "filename":"perc_ride2.wav",
+    "order": "107",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "shaker",
+    "name": "shaker",
+    "filename":"perc_shaker.wav",
+    "order": "108",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "sidestick",
+    "name": "sidestick",
+    "filename":"perc_sidestick.wav",
+    "order": "109",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "skipshot",
+    "name": "skipshot",
+    "filename":"perc_skipshot.wav",
+    "order": "110",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "slap",
+    "name": "🖐",
+    "filename":"perc_slap.wav",
+    "order": "111",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "sm64_painting",
+    "name": "sm64_painting",
+    "filename":"perc_sm64_painting.wav",
+    "order": "112",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "smw_stomp",
+    "name": "smw_stomp",
+    "filename":"perc_smw_stomp.wav",
+    "order": "113",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "smw_stomp2",
+    "name": "smw_stomp2",
+    "filename":"perc_smw_stomp2.wav",
+    "order": "114",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "tab_actions",
+    "name": "tab_actions",
+    "filename":"perc_tab_actions.wav",
+    "order": "115",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "tab_rooms",
+    "name": "tab_rooms",
+    "filename":"perc_tab_rooms.wav",
+    "order": "116",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "tab_rows",
+    "name": "tab_rows",
+    "filename":"perc_tab_rows.wav",
+    "order": "117",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "taiko_don",
+    "name": "taiko_don",
+    "filename":"perc_taiko_don.wav",
+    "order": "118",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "taiko_ka",
+    "name": "taiko_ka",
+    "filename":"perc_taiko_ka.wav",
+    "order": "119",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "tom",
+    "name": "🪘",
+    "filename":"perc_tom.wav",
+    "order": "120",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "undertale_crack",
+    "name": "undertale_crack",
+    "filename":"perc_undertale_crack.wav",
+    "order": "121",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "undertale_hit",
+    "name": "undertale_hit",
+    "filename":"perc_undertale_hit.wav",
+    "order": "122",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "vvvvvv_flash",
+    "name": "vvvvvv_flash",
+    "filename":"perc_vvvvvv_flash.wav",
+    "order": "123",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "whipcrack",
+    "name": "whipcrack",
+    "filename":"perc_whipcrack.wav",
+    "order": "124",
+    "tuningoffset": 0
+  },  
+  { 
+    "id": "megalovania",
+    "name": "megalovania",
+    "filename":"r_megalovania.wav",
+    "order": "125",
+    "tuningoffset": 0
+  },  
+  { 
+    "id": "morningflower",
+    "name": "🌄",
+    "filename":"r_morningflower.wav",
+    "order": "126",
+    "tuningoffset": 0
+  },  
+  { 
+    "id": "samsung",
+    "name": "📲",
+    "filename":"r_samsung.wav",
+    "order": "127",
+    "tuningoffset": 0
+  },  
+  { 
+    "id": "smw_1up",
+    "name": "smw_1up",
+    "filename":"r_smw_1up.wav",
+    "order": "128",
+    "tuningoffset": 0
+  },  
+  { 
+    "id": "whatsapp",
+    "name": "whatsapp",
+    "filename":"r_whatsapp.wav",
+    "order": "129",
+    "tuningoffset": 0
+  }, 
+  { 
+    "id": "21",
+    "name": "21",
+    "filename":"sfx_21.wav",
+    "order": "130",
+    "tuningoffset": 0
+  },
+  {
+    "id": "alarm",
+    "name": "🚨",
+    "filename":"sfx_alarm.wav",
+    "order": "131",
+    "tuningoffset": 0
+  },
+  {
+    "id": "alert",
+    "name": "❗",
+    "filename":"sfx_alert.wav",
+    "order": "132",
+    "tuningoffset": 0
+  },
+  {
+    "id": "americano",
+    "name": "americano",
+    "filename":"sfx_americano.wav",
+    "order": "133",
+    "tuningoffset": 0
+  },
+  {
+    "id": "amogus",
+    "name": "amogus",
+    "filename":"sfx_amogus.wav",
+    "order": "134",
+    "tuningoffset": 0
+  },
+  {
+    "id": "amongus",
+    "name": "amongus",
+    "filename":"sfx_amongus.wav",
+    "order": "135",
+    "tuningoffset": 0
+  },
+  {
+    "id": "BABA",
+    "name": "BABA",
+    "filename":"sfx_BABA.wav",
+    "order": "136",
+    "tuningoffset": 0
+  },
+  {
+    "id": "boink",
+    "name": "💢",
+    "filename":"sfx_boink.wav",
+    "order": "137",
+    "tuningoffset": 0
+  },
+  {
+    "id": "bruh",
+    "name": "bruh",
+    "filename":"sfx_bruh.wav",
+    "order": "138",
+    "tuningoffset": 0
+  },
+  {
+    "id": "dog",
+    "name": "🐶",
+    "filename":"sfx_dog.wav",
+    "order": "139",
+    "tuningoffset": 0
+  },
+  {
+    "id": "e",
+    "name": "e",
+    "filename":"sfx_e.wav",
+    "order": "140",
+    "tuningoffset": 0
+  },
+  {
+    "id": "eight",
+    "name": "eight",
+    "filename":"sfx_eight.wav",
+    "order": "141",
+    "tuningoffset": 0
+  },
+  {
+    "id": "explosion",
+    "name": "explosion",
+    "filename":"sfx_explosion.wav",
+    "order": "142",
+    "tuningoffset": 0
+  },
+  {
+    "id": "fart",
+    "name": "💨",
+    "filename":"sfx_fart.wav",
+    "order": "143",
+    "tuningoffset": 0
+  },
+  {
+    "id": "flipnote",
+    "name": "flipnote",
+    "filename":"sfx_flipnote.wav",
+    "order": "144",
+    "tuningoffset": 0
+  },
+  {
+    "id": "fnf_death",
+    "name": "fnf_death",
+    "filename":"sfx_fnf_death.wav",
+    "order": "145",
+    "tuningoffset": 0
+  },
+  {
+    "id": "gaster",
+    "name": "gaster",
+    "filename":"sfx_.wav",
+    "order": "146",
+    "tuningoffset": 0
+  },
+  {
+    "id": "gdcrash",
+    "name": "gdcrash",
+    "filename":"sfx_gdcrash.wav",
+    "order": "147",
+    "tuningoffset": 0
+  },
+  {
+    "id": "gdcrash_orbs",
+    "name": "gdcrash_orbs",
+    "filename":"sfx_gdcrash_orbs.wav",
+    "order": "148",
+    "tuningoffset": 0
+  },
+  {
+    "id": "gnome",
+    "name": "gnome",
+    "filename":"sfx_gnome.wav",
+    "order": "149",
+    "tuningoffset": 0
+  },
+  {
+    "id": "granddad",
+    "name": "granddad",
+    "filename":"sfx_granddad.wav",
+    "order": "150",
+    "tuningoffset": 0
+  },
+  {
+    "id": "gun",
+    "name": "gun",
+    "filename":"sfx_gun.wav",
+    "order": "151",
+    "tuningoffset": 0
+  },
+  {
+    "id": "hehehehaw",
+    "name": "hehehehaw",
+    "filename":"sfx_hehehehaw.wav",
+    "order": "152",
+    "tuningoffset": 0
+  },
+  {
+    "id": "isaac_dead",
+    "name": "isaac_dead",
+    "filename":"sfx_isaac_dead.wav",
+    "order": "153",
+    "tuningoffset": 0
+  },
+  {
+    "id": "isaac_hurt",
+    "name": "isaac_hurt",
+    "filename":"sfx_isaac_hurt.wav",
+    "order": "154",
+    "tuningoffset": 0
+  },
+  {
+    "id": "kaching",
+    "name": "💰",
+    "filename":"sfx_kaching.wav",
+    "order": "155",
+    "tuningoffset": 0
+  },
+  {
+    "id": "krabs",
+    "name": "🦀",
+    "filename":"sfx_krabs.wav",
+    "order": "156",
+    "tuningoffset": 0
+  },
+  {
+    "id": "mariopaint_baby",
+    "name": "mariopaint_baby",
+    "filename":"sfx_mariopaint_baby.wav",
+    "order": "157",
+    "tuningoffset": 0
+  },
+  {
+    "id": "minecraft_explosion",
+    "name": "minecraft_explosion",
+    "filename":"sfx_minecraft_explosion.wav",
+    "order": "158",
+    "tuningoffset": 0
+  },
+  {
+    "id": "mrbeast",
+    "name": "mrbeast",
+    "filename":"sfx_mrbeast.wav",
+    "order": "159",
+    "tuningoffset": 0
+  },
+  {
+    "id": "necoarc",
+    "name": "necoarc",
+    "filename":"sfx_necoarc.wav",
+    "order": "160",
+    "tuningoffset": 0
+  },
+  {
+    "id": "nope",
+    "name": "nope",
+    "filename":"sfx_nope.wav",
+    "order": "161",
+    "tuningoffset": 0
+  },
+  {
+    "id": "oof",
+    "name": "oof",
+    "filename":"sfx_oof.wav",
+    "order": "162",
+    "tuningoffset": 0
+  },
+  {
+    "id": "otto_happy",
+    "name": "otto_happy",
+    "filename":"sfx_otto_happy.wav",
+    "order": "163",
+    "tuningoffset": 0
+  },
+  {
+    "id": "otto_on",
+    "name": "otto_on",
+    "filename":"sfx_otto_on.wav",
+    "order": "164",
+    "tuningoffset": 0
+  },
+  {
+    "id": "otto_stress",
+    "name": "otto_stress",
+    "filename":"sfx_otto_stress.wav",
+    "order": "165",
+    "tuningoffset": 0
+  },
+  {
+    "id": "perfectfail",
+    "name": "perfectfail",
+    "filename":"sfx_perfectfail.wav",
+    "order": "166",
+    "tuningoffset": 0
+  },
+  {
+    "id": "pingas",
+    "name": "pingas",
+    "filename":"sfx_pingas.wav",
+    "order": "167",
+    "tuningoffset": 0
+  },
+  {
+    "id": "pizza",
+    "name": "🍕",
+    "filename":"sfx_pizza.wav",
+    "order": "168",
+    "tuningoffset": 0
+  },
+  {
+    "id": "rdmistake",
+    "name": "rdmistake",
+    "filename":"sfx_rdmistake.wav",
+    "order": "169",
+    "tuningoffset": 0
+  },
+  {
+    "id": "recordstratch",
+    "name": "💿",
+    "filename":"sfx_recordscratch.wav",
+    "order": "170",
+    "tuningoffset": 0
+  },
+  {
+    "id": "skeleton",
+    "name": "💀",
+    "filename":"sfx_skeleton.wav",
+    "order": "171",
+    "tuningoffset": 0
+  },
+  {
+    "id": "SLAM",
+    "name": "SLAM",
+    "filename":"sfx_SLAM.wav",
+    "order": "172",
+    "tuningoffset": 0
+  },
+  {
+    "id": "slip",
+    "name": "slip",
+    "filename":"sfx_slip.wav",
+    "order": "173",
+    "tuningoffset": 0
+  },
+  {
+    "id": "sm64_hurt",
+    "name": "sm64_hurt",
+    "filename":"sfx_sm64_hurt.wav",
+    "order": "174",
+    "tuningoffset": 0
+  },
+  {
+    "id": "smm_scream",
+    "name": "smm_scream",
+    "filename":"sfx_smm_scream.wav",
+    "order": "175",
+    "tuningoffset": 0
+  },
+  {
+    "id": "smw_spinjump",
+    "name": "smw_spinjump",
+    "filename":"sfx_smw_spinjump.wav",
+    "order": "176",
+    "tuningoffset": 0
+  },
+  {
+    "id": "smw_yoshi",
+    "name": "smw_yoshi",
+    "filename":"sfx_smw_yoshi.wav",
+    "order": "177",
+    "tuningoffset": 0
+  },
+  {
+    "id": "subaluwa",
+    "name": "subaluwa",
+    "filename":"sfx_subaluwa.wav",
+    "order": "178",
+    "tuningoffset": 0
+  },
+  {
+    "id": "suspense",
+    "name": "😱",
+    "filename":"sfx_suspense.wav",
+    "order": "179",
+    "tuningoffset": 0
+  },
+  {
+    "id": "tab_decorations",
+    "name": "tab_decorations",
+    "filename":"sfx_tab_decorations.wav",
+    "order": "180",
+    "tuningoffset": 0
+  },
+  {
+    "id": "terraria_pot",
+    "name": "terraria_pot",
+    "filename":"sfx_terraria_pot.wav",
+    "order": "181",
+    "tuningoffset": 0
+  },
+  {
+    "id": "terraria_reforge",
+    "name": "terraria_reforge",
+    "filename":"sfx_terraria_reforge.wav",
+    "order": "182",
+    "tuningoffset": 0
+  },
+  {
+    "id": "terraria_star",
+    "name": "terraria_star",
+    "filename":"sfx_terraria_star.wav",
+    "order": "183",
+    "tuningoffset": 0
+  },
+  {
+    "id": "thwomp",
+    "name": "thwomp",
+    "filename":"sfx_thwomp.wav",
+    "order": "184",
+    "tuningoffset": 0
+  },
+  {
+    "id": "toby",
+    "name": "toby",
+    "filename":"sfx_toby.wav",
+    "order": "185",
+    "tuningoffset": 0
+  },
+  {
+    "id": "undertale_encounter",
+    "name": "undertale_encounter",
+    "filename":"sfx_undertale_encounter.wav",
+    "order": "186",
+    "tuningoffset": 0
+  },
+  {
+    "id": "vvvvvv_checkpoint",
+    "name": "vvvvvv_checkpoint",
+    "filename":"sfx_vvvvvv_checkpoint.wav",
+    "order": "187",
+    "tuningoffset": 0
+  },
+  {
+    "id": "vvvvvv_flip",
+    "name": "vvvvvv_flip",
+    "filename":"sfx_vvvvvv_flip.wav",
+    "order": "188",
+    "tuningoffset": 0
+  },
+  {
+    "id": "vvvvvv_hurt",
+    "name": "vvvvvv_hurt",
+    "filename":"sfx_vvvvvv_hurt.wav",
+    "order": "189",
+    "tuningoffset": 0
+  },
+  {
+    "id": "yahoo",
+    "name": "yahoo",
+    "filename":"sfx_yahoo.wav",
+    "order": "190",
+    "tuningoffset": 0
+  },
+  {
+    "id": "yoda",
+    "name": "yoda",
+    "filename":"sfx_yoda.wav",
+    "order": "191",
+    "tuningoffset": 0
   }
 ]
