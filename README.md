@@ -6,15 +6,20 @@ Python 3 only.
 
 Use the example.it or .mptm file to do your song.
 Don't change the samples/instruments (.mptm instrument Alternative Tuning may be changed).
-Only notes and volume settings are parsed (no commands)
+Only notes and volume settings are parsed. Commands are not parsed except for EFx/FFx/EEx/EFx in rows containing notes (for detuning)
 Note Cuts ^ will cut all sounds, no matter where they are placed (i.e., be careful with these)
 
 Initial settings:
+
 Initial Tempo: adjustable
+
 Ticks/Row: 3 (fixed, do not change)
+
 Initial Global Vol: adjustable (template set at 60)
+
 Sample Volume: 160 (this may be adjusted but does not affect the output, it is 
        set so that tracker output during playback sounds closer to Moai website output)
+
 
 Version history
 ---------------
@@ -27,6 +32,8 @@ Version history
 * 0.3: Module name is no longer hardcoded and must instead be typed in. Output name remains as is.
        Added ability to xenharmonise files during moai conversion to any tone equal temperament tuning
        system. This may be handy for .mptm files with such a tuning.
+* 0.4: Support added for Fine/Extra Fine Portamento Down/Up commands (EFx/FFx/EEx/FEx) to detune notes.
+       Use only on rows that also contain a note, otherwise the script will break.
 
 soundlist.json contains the listing of samples in order along with their ids 
 and name fields. Both of those fields can be ingested by thirtydollar.website, 
