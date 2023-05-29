@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 
 """
-it2moai.py, version 0.2
+it2moai.py, version 0.3
 ----------------------
 
 Python 3 only.
 
-Use the example.it file to do your song. When done, run this 
+Use the example.it or .mptm file to do your song. When done, run this 
 script and it will generate an output.moai file usable by 
 thirtydollar.website.
 
-Don't change the samples/instruments.
+Don't change the samples/instruments (.mptm instrument Alternative Tuning may be changed).
 Only notes and volume settings are parsed (no commands)
 Note Cuts ^ will cut all sounds, no matter where they are placed (i.e., be careful with these)
 
@@ -28,6 +28,9 @@ Version history
        current available sounds (list grows from 131 samples to 191). Samples tuned in example module 
        and appropriate offsets added to the soundlist. Adjusted global/sample volume defaults so that
        tracker playback volume sounds closer to moai playback volume.
+* 0.3: Module name is no longer hardcoded and must instead be typed in. Output name remains as is.
+       Added ability to xenharmonise files during moai conversion to any tone equal temperament tuning
+       system. This may be handy for .mptm files with such a tuning.
 """
 
 from sys import stderr, version_info
@@ -46,7 +49,24 @@ if version_info.major < 3:
     die('python3 only!')
 
 
-MODULE = "example.it"
+MODULE = input("Enter module name, .it or .mptm file format included: ")
+try:
+    open(file=MODULE, mode='r')
+except:
+    die('file not found!')
+
+try:    
+    EDO = float(input("Enter desired 'number of equal divisions of the octave': "))
+except:
+    die('invalid number!')
+
+ORIGIN_NOTE = 0
+if EDO!=12:
+    try:
+        ORIGIN_NOTE = float(input("Enter central semitone to remap all the notes around: "))
+    except:
+        die('invalid number!')
+        
 SOUNDLIST = "soundlist.json"
 
 
@@ -96,7 +116,12 @@ def convert(module, filename, soundnamelist, tuninglist):
                             instrument = channel["instrument"]
                             sample = soundnamelist[instrument-1] # write to the correct instrument as mapped in the soundlist
                             pitch = note-60+tuninglist[instrument-1] # adjust pitch with the offset from the soundlist
-
+                            
+                            # if user wants regular tuning, this is skipped, otherwise, the notes are remapped to the new EDO
+                            if (EDO!=12.0):
+                                ratio=12/EDO
+                                pitch=((pitch-ORIGIN_NOTE)*ratio)+ORIGIN_NOTE
+                            
                             # If the note is at default sample pitch offset of 0, don't bother writing pitch (for cleaner json)
                             # If the note volume is set to 100%, don't bother writing (for cleaner json + improved readability of volume settings in UI)
                             if (cur_vol==100):

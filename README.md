@@ -1,11 +1,11 @@
 # it2moai
 
-version 0.2
+version 0.3
 ----------------------
 Python 3 only.
 
-Use the example.it file to do your song.
-Don't change the samples/instruments.
+Use the example.it or .mptm file to do your song.
+Don't change the samples/instruments (.mptm instrument Alternative Tuning may be changed).
 Only notes and volume settings are parsed (no commands)
 Note Cuts ^ will cut all sounds, no matter where they are placed (i.e., be careful with these)
 
@@ -24,6 +24,9 @@ Version history
        to incorporate the        current available sounds (list grows from 131 
        samples to 191). Samples tuned in example module and appropriate offsets 
        added to the soundlist.
+* 0.3: Module name is no longer hardcoded and must instead be typed in. Output name remains as is.
+       Added ability to xenharmonise files during moai conversion to any tone equal temperament tuning
+       system. This may be handy for .mptm files with such a tuning.
 
 soundlist.json contains the listing of samples in order along with their ids 
 and name fields. Both of those fields can be ingested by thirtydollar.website, 
