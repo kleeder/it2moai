@@ -1,6 +1,6 @@
 # it2moai
 
-version 0.3
+version 0.4
 ----------------------
 Python 3 only.
 
