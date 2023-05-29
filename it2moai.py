@@ -11,7 +11,7 @@ script and it will generate an output.moai file usable by
 thirtydollar.website.
 
 Don't change the samples/instruments (.mptm instrument Alternative Tuning may be changed).
-Only notes and volume settings are parsed (no commands)
+Only notes and volume settings are parsed. Commands are not parsed except for EFx/FFx/EEx/EFx in rows containing notes (for detuning)
 Note Cuts ^ will cut all sounds, no matter where they are placed (i.e., be careful with these)
 
 Initial settings:
@@ -31,6 +31,8 @@ Version history
 * 0.3: Module name is no longer hardcoded and must instead be typed in. Output name remains as is.
        Added ability to xenharmonise files during moai conversion to any tone equal temperament tuning
        system. This may be handy for .mptm files with such a tuning.
+* 0.4: Support added for Fine/Extra Fine Portamento Down/Up commands (EFx/FFx/EEx/FEx) to detune notes.
+       Use only on rows that also contain a note, otherwise the script will break.
 """
 
 from sys import stderr, version_info
@@ -109,19 +111,26 @@ def convert(module, filename, soundnamelist, tuninglist):
                             cur_vol = math.floor(channel['volpan']/64*100) # change note volume setting to a floored percentage
                         except:
                             cur_vol = 100
-                                                
                         if note == 254:
                             outfile.write('!cut|')
                         else:
                             instrument = channel["instrument"]
                             sample = soundnamelist[instrument-1] # write to the correct instrument as mapped in the soundlist
                             pitch = note-60+tuninglist[instrument-1] # adjust pitch with the offset from the soundlist
-                            
                             # if user wants regular tuning, this is skipped, otherwise, the notes are remapped to the new EDO
                             if (EDO!=12.0):
                                 ratio=12/EDO
                                 pitch=((pitch-ORIGIN_NOTE)*ratio)+ORIGIN_NOTE
-                            
+                            # Checking for Fine/Extra Fine Portamento Down/Up commands (EFx, FFx, EEx, FEx)
+                            # Applies a pitch offset (detune) to rows containing both a note and one of these commands
+                            # Note that trying to use these commands in a row without a note will break the script
+                            if ('command' in channel):
+                                if ("EF" in channel["command"]) or ("FF" in channel["command"]) or ("EE" in channel["command"]) or ("FE" in channel["command"]):
+                                    cmd = channel["command"]
+                                    pitchoffset = int(cmd[2],16) * 0.0625
+                                    if (cmd[0]=='F'): pitchoffset = pitchoffset * -1
+                                    if (cmd[1]=='E'): pitchoffset = pitchoffset / 4
+                                    pitch = pitch - pitchoffset
                             # If the note is at default sample pitch offset of 0, don't bother writing pitch (for cleaner json)
                             # If the note volume is set to 100%, don't bother writing (for cleaner json + improved readability of volume settings in UI)
                             if (cur_vol==100):
