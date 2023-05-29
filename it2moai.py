@@ -120,7 +120,7 @@ def convert(module, filename, soundnamelist, tuninglist):
                             # if user wants regular tuning, this is skipped, otherwise, the notes are remapped to the new EDO
                             if (EDO!=12.0):
                                 ratio=12/EDO
-                                pitch=((pitch-ORIGIN_NOTE)*ratio)+ratio+ORIGIN_NOTE
+                                pitch=((pitch-ORIGIN_NOTE)*ratio)+ORIGIN_NOTE
                             
                             # If the note is at default sample pitch offset of 0, don't bother writing pitch (for cleaner json)
                             # If the note volume is set to 100%, don't bother writing (for cleaner json + improved readability of volume settings in UI)
