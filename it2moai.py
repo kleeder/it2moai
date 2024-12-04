@@ -100,13 +100,19 @@ def convert(module, filename, soundnamelist, tuninglist):
 
     for pattern_number in sequence:
         if pattern_number != 255:
+            # Skip patterns that don't exist
+            if len(module["patterns"]) < pattern_number or len(module["patterns"][pattern_number]) < 1:
+                continue
             pattern_data = module["patterns"][pattern_number][0]
             for row in pattern_data:
                 channel_amount = len(row)
                 if channel_amount > 0:
                     for channel in row:
                         channel_amount = channel_amount - 1
-                        note = channel["note"]
+                        note = channel.get("note")
+                        # Skip notes that don't exist
+                        if not note:
+                            continue
                         try:
                             cur_vol = math.floor(channel['volpan']/64*100) # change note volume setting to a floored percentage
                         except:
