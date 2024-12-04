@@ -34,6 +34,7 @@ Version history
        system. This may be handy for .mptm files with such a tuning.
 * 0.4: Support added for Fine/Extra Fine Portamento Down/Up commands (EFx/FFx/EEx/FEx) to detune notes.
        Use only on rows that also contain a note, otherwise the script will break.
+* 0.5: Fixed errors on non-existent patterns and notes
 
 soundlist.json contains the listing of samples in order along with their ids 
 and name fields. Both of those fields can be ingested by thirtydollar.website, 
